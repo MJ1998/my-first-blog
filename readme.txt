@@ -2,6 +2,7 @@ source myvenv/bin/activate
 deactivate
 
 django-admin startproject mysite .              creates web app named mysite
+django-admin startproject mysite                creates web project named mysite with web app anem mysite as sub folder
 
 python manage.py migrate                        django sets up
 python manage.py runserver                      to start web browser
@@ -33,7 +34,9 @@ web app deployment(pythonanywhere
 
 
 python manage.py shell
+python manage.py collectstatic ==>> used by server that collects static files data to the server
 
+django template tags {% %}
 
 
 sql type queries
